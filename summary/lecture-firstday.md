@@ -2,11 +2,12 @@
 
 Please download the syllabus [here](../syllabus/ec5023_syllabus.pdf) to see what will be covered.
 
-# Before next class
+# Before next class!
 
-## Register for access at IPUMS
+## Register for access at IPUMS and Datacamp
 
-You can register for access [here](https://cps.ipums.org/cps-action/menu).
+    1. You should send me your email to request access to Datacamp courses
+    2. You can register for access [here](https://cps.ipums.org/cps-action/menu).
 
 ## Install R and R Studio
 
@@ -30,7 +31,5 @@ Double clicking on these will start the standard installation process.
 
 Optional: Install via [Homebrew](http://datascience.csuchico.edu/materials/install_r_with_homebrew.md). Guide courtesy of Justin Bankes (2017).
 
-## Datacamp
 
-You should send me your email to request access to Datacamp courses
 
