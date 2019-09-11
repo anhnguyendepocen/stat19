@@ -5,7 +5,7 @@ output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
 ```
 
 **Instruction:** Do all the following empirical exercises using R and make your answer using R Markdown. For your convinence, I also posted my R markdown file `ps1.Rmd` on Github so you just need to download it and fill in the code chunks. Refer to the output whenever appropriate when discussing your results.
