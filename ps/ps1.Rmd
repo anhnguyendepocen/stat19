@@ -253,3 +253,7 @@ Sweden$py.total <-
 
 ```
 
+## Question 4s
+
+To test whether you have gone through the Data Camp course and learned how to use R Markdown, please also complete the R markdown file called `ps1_datacamp.Rmd` available [here](ps1_datacamp.Rmd). 
+
