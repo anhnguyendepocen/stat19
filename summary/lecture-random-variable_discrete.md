@@ -35,7 +35,7 @@
 3. [R Example: Discrete Variables (Basics)](../lecture/examples/discrete_variable_basics.R)
 4. [R Example: Factor Variables (Basics)](../lecture/examples/discrete_variable_factor_basics.R)
 5. [R Example: IPUMS Data R file](../lecture/examples/discrete_variable_factor_examples.R)
-6. [R Example: IPUMS Data fiels (1)](../lecture/examples/cps_00019.dat); [R Example: IPUMS Data fiels (2)](../lecture/examples/cps_00019.xml); [R Example: IPUMS Data fiels (3)](../lecture/examples/cps_00019.R)
+6. [R Example: IPUMS Data files (1)](../lecture/examples/cps_00019.dat); [R Example: IPUMS Data files (2)](../lecture/examples/cps_00019.xml); [R Example: IPUMS Data files (3)](../lecture/examples/cps_00019.R)
 
 ### R related Readings
 
