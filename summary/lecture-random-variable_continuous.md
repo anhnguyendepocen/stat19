@@ -33,8 +33,9 @@
 
 1. [Slides](../lecture/univariate_statistics_continous_var01.pdf)
 2. [R Example: Continuous Variable (Part I)](../lecture/examples/continuous_variables_01.Rmd)
-3. [R Example: Kernel Density Estimation](../lecture/examples/continuous_variables_01_kde.R)
-4. [R Example: Value at Risk](../lecture/examples/continuous_variables_02_VaR.Rmd)
-5. [R Example: Boxplot](../lecture/examples/continuous_variables_03_Boxplot.Rmd)
+3. [R Example: Kernel Density Estimation](../lecture/examples/continuous_variables_01_kde.R); [R markdown file](../lecture/examples/continuous_variables_01_kde.Rmd)
+4. [R Example: Continuous Variable on Quantile](../lecture/examples/continuous_variables_01_quantile.Rmd)
+5. [R Example: Value at Risk](../lecture/examples/continuous_variables_02_VaR.Rmd)
+6. [R Example: Boxplot](../lecture/examples/continuous_variables_03_Boxplot.Rmd)
 
 
