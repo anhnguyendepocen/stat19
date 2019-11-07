@@ -1,0 +1,120 @@
+---
+title: 'Homework #5'
+author: "Le Wang"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Instruction:** Do all the following empirical exercises using R. Turn in your R markdown file with answers and supporting tables and graphs, if any. Refer to the R output whenever appropriate when discussing your results. It does not matter which method you use to plot a time series variable. 
+
+
+\bigskip
+
+**delete `eval=FALSE`** before compiling the file. 
+
+\bigskip
+
+**Question 1. [Learn How to Obtain and Program Certain Characteristics]**    
+
+\bigskip
+
+We took a hard way to calculate sample averages. This is because we would like to know how we can derive sample estimators based on a theoretical concept, when there is no way to do so. Let's look at one example. Suppose that we are interested in the following statistic
+$$
+\sum_{j=1}^{J} x^j\frac{[f(x^j)]^2}{\sum_{j=1}^{J} [f(x^j)]^2}
+$$
+
+where $x^j$ is a distinct value of variable $X$, and $f(x^j)$ is the corresponding probability.In total, we have $J$ distinct values. This is a weighted mean of $x$, but with the weight being much larger for those with larger probabilities. We cannot simply estimate this number by taking the simplistic approach to sum up all the values and then divide it by $N$, the number of observations. But we can use the definition above to program it. Let me walk you through this process. You will see that we will put together to use many different commands that we learned before. 
+
+\bigskip
+
+Run the following code in your `R` to generate the sample data first. 
+
+```{r}
+set.seed(123456)
+x <- sample(1:6, 1000, replace = TRUE)
+```
+
+
+1. Let's find out what the unique values are by using `unique()`, and call it `x.unique`
+
+\bigskip
+
+```{r eval=FALSE}
+x.unique <- 
+```
+
+\bigskip
+
+2. Lets' sort our unique values, and call it `x.sorted`
+
+\bigskip
+
+```{r eval=FALSE}
+x.sorted <- 
+```
+
+\bigskip
+
+3. Calculate the probability mass function (then we automatically have $f(x^j)$ for every $x^j$), and call it `x.pmf`. 
+
+\bigskip
+
+```{r eval=FALSE}
+x.pmf <- 
+```
+
+\bigskip
+
+4. Generate a new vector that is $[f(x^j)]^2$, the square of each probability, and call it `x.pmf2`.
+
+\bigskip
+
+```{r eval=FALSE}
+x.pmf2 <- 
+```
+
+\bigskip
+
+5. Calculate the sum $\sum_{j=1}^{J} [f(x^j)]^2$ in the denominator, and call it `x.pmf2sum`
+
+\bigskip
+
+```{r eval=FALSE}
+x.pmf2sum <- 
+```
+
+\bigskip
+
+6. Now sum up the (element-wise) product of every distinct value, $x^j$ and $\frac{[f(x^j)]^2}{\sum_{j=1}^{J} [f(x^j)]^2}$
+
+\bigskip
+
+```{r eval=FALSE}
+
+```  
+  
+  
+\bigskip
+
+**Question 2. [Monte Carlo Simulation]**    
+
+\bigskip  
+
+
+As Carson suggested in class, we can play craps with more-than-six-sided dices. Lets do it! Lets call this game **super craps**. We will have two 12-sided dices. 
+
+1. Use Monte Carlo simulation to show what would be your best betting strategy if you were to bet on the sum of the two dices?
+
+2. Lets change our game to **crazy craps**, where you will instead bet on the product of the two dices. What will be your best strategy?
+
+
+
+
+
+
