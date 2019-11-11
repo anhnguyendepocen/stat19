@@ -18,7 +18,8 @@
 
 ### Required Readings
 
-1. [Slides on Uniform and Normal Distributions](../lecture/MC03.pdf)
+0. [Introduction to Loops in R](./lecture/)
+1. [Slides on Uniform and Normal Distributions](../lecture/R-intro-to-loops.Rmd)
 2. [R Example: Monte Carlo Integration](../lecture/examples/MC03.Rmd)
 3. [R Example: Visualize CLT](../lecture/examples/MC04.R)
 4. [Visualize Central Limit Theory](https://seeing-theory.brown.edu/probability-distributions/index.html#%23section2)
