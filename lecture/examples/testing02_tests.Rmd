@@ -47,6 +47,14 @@ Lets calculate the p-value
 
 **Our interpretation:** There are 40.87048 percent of the values greater than the JB test statistic. Our test statistic is relatively small. Devitation is small, and we cannot reject the null hypothesis. 
 
+Lets compare it to `R`'s built-in commmand:
+
+```{r}
+library(tseries)
+jarque.bera.test(x)
+```
+
+
 # Test of Sample Mean
 
 $$
@@ -126,3 +134,10 @@ Calculate p-value yourself
 
 
 **Conclusion:** p-value is much greater than 5 percent. It is not very extreme. We fail to reject the null hypothesis!
+
+Lets' compare it to `R`'s built-in command for this purpose
+
+```{r}
+var.test(x, y, alternative = "greater")
+```
+
