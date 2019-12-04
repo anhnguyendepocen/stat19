@@ -15,5 +15,6 @@
 
 1. [Slides](../lecture/testing02.pdf)
 2. [R Example](../lecture/examples/testing02_tests.Rmd)
+3. [R Example (Stock Analysis)](../lecture/examples/testing02_tests_example_stock_quiz_version.Rmd)
 
 
